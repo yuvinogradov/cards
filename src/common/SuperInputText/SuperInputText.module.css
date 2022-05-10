@@ -1,0 +1,42 @@
+.inputItem{
+  margin: 0;
+}
+.superInput {
+  outline: none;
+  margin-bottom: 0 !important;
+  margin-left: 0 !important;
+  padding: 5px;
+  border-radius: 3px;
+  border: 1px solid #9b7d58;
+}
+
+.errorInput {
+  outline: none;
+  border: 1px solid red;
+  background: white;
+  margin-bottom: 0 !important;
+  margin-left: 0 !important;
+  padding: 5px;
+  border-radius: 3px;
+
+}
+
+.error {
+  color: darkred;
+  font-size: 0.7em;
+  margin: 0 !important;
+}
+
+.inputErrorMessageArea{
+  margin-top: 0 !important;
+  line-height: 0.9em;
+  height: 1em;
+}
+
+.title {
+  color: black;
+  font-size: 0.8em;
+  margin: 8px 0 0 0 !important;
+}
+
+

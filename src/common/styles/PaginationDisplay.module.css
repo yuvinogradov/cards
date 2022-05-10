@@ -1,0 +1,50 @@
+.main {
+    display: flex;
+    flex-direction: row;
+    max-width: 400px;
+    height: 26px;
+    box-shadow: 0 4px 6px rgba(50,30,30,0.2);
+    border-collapse: collapse;
+
+}
+
+.main button, .main select {
+    margin-right: 2px;
+    outline: none;
+    border: 1px solid burlywood;
+    border-radius: 4px !important;
+    display: table-cell;
+
+}
+
+.main span {
+    font-size: 22px;
+    padding: 0 8px;
+    color: burlywood;
+}
+
+.main::-webkit-scrollbar {
+    padding: 2px;
+    height: 8px;
+    width: 12px;
+    background: white;
+    border: 1px solid burlywood;
+}
+
+.main::-webkit-scrollbar-thumb {
+    background: #b1936d;
+}
+
+.main::-webkit-scrollbar-corner {
+    background: white;
+}
+
+.main button {
+    background-color: white;
+    padding: 0 10px !important;
+    cursor: pointer;
+}
+
+.main button:hover {
+    background-color: #b1936d !important;
+}

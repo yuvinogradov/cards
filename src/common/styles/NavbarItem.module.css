@@ -1,0 +1,27 @@
+a {
+    text-decoration: none;
+    text-align: center;
+    color: #d99740;
+}
+
+.item {
+
+}
+
+.item a {
+    display: block;
+    text-decoration: none;
+    transition: 0.1s;
+    color: #e7cfaf;
+    padding: 2px 20px;
+}
+
+.item a:hover {
+    color: white;
+    -webkit-text-stroke: 0.5px white;
+}
+
+.item .activeLink {
+    color: white;
+    -webkit-text-stroke: 0.5px white;
+}

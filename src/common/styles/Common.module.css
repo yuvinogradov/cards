@@ -1,0 +1,75 @@
+.defaultTitle {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.defaultButton {
+    outline: none;
+    border-radius: 4px;
+    background-color: #b1936d;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 26px;
+    width: 120px;
+    height: 40px;
+    transition: all 0.2s;
+    cursor: pointer;
+    margin: 10px 0 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.4);
+}
+
+.defaultButton:hover {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.6);
+    background-color: #9b7d58;
+}
+
+.defaultButton:active {
+    background-color: #5b5959;
+}
+
+.defaultButton span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.3s;
+}
+
+.defaultButton span:after {
+    opacity: 0;
+    top: 0;
+    transition: 0.5s;
+}
+
+.defaultButton:hover span {
+    padding-bottom: 25px;
+}
+
+.defaultButton:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.infoWrapper {
+    margin: 10px 0 30px;
+    padding: 20px 40px;
+    background-color: white;
+    box-shadow: 0 4px 30px rgba(50,30,30,0.6);
+    border: 1px solid #e2cbaf;
+    border-radius: 4px;
+}
+
+.modal {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.modal * {
+    margin-top: 20px;
+}
+
+.modal input {
+    padding: 2px 10px;
+}

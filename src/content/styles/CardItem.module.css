@@ -1,0 +1,123 @@
+.cardItem {
+    width: 780px;
+    height: 34px;
+    font-size: 14px;
+    padding: 5px 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 2px;
+    box-shadow: 0 3px 3px rgba(0,0,0,0.4);
+    border-radius: 0 0 15% 15%;
+}
+
+.descriptionBlock {
+    margin-left: 10px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cardDescription {
+    color: #2b2b2b;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.userName {
+    font-size: 12px;
+    color: #9b7d58;
+
+}
+
+.itemIsNotMine {
+    color: #9f9f9f;
+    font-weight: normal;
+}
+
+.count {
+    font-weight: bold;
+    font-size: 20px;
+    color: #3c3c3c;
+    width: 50px;
+    text-align: center;
+    margin-left: 25px;
+}
+
+.emptyPack {
+    color: #bbb;
+}
+
+.updated, .created {
+    color: #888;
+    font-size: 12px;
+    width: 50px;
+    text-align: center;
+    margin-left: 70px;
+}
+
+.buttonsBlock {
+    display: flex;
+    flex-direction: row;
+    margin-left: 80px;
+}
+
+.buttonsBlock button {
+    border-radius: 3px;
+}
+
+.packItem a {
+    display: inline-block;
+    height: 34px;
+}
+
+.cardsLink, .learnLink {
+    position: relative;
+}
+
+.cardsLink {
+    margin-left: 30px;
+}
+
+.learnLink {
+    margin-left: 20px;
+}
+
+.cardsLink img {
+    height: 120%;
+}
+
+.learnLink img {
+    margin-top: 5px;
+    height: 90%;
+}
+
+.tooltip {
+    opacity: 0.0;
+    width: 35px;
+    bottom: 20%;
+    font-size: 12px;
+    background-color: #4c4c4c;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    border-radius: 6px;
+    transition: 0.2s all;
+
+    position: absolute;
+    z-index: 1;
+}
+
+.cardsLink .tooltip {
+    left: -6%;
+}
+
+.learnLink .tooltip {
+    left: -22%;
+}
+
+.cardsLink:hover .tooltip, .learnLink:hover .tooltip {
+    opacity: 1.0;
+}

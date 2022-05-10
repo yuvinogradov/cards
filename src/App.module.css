@@ -1,0 +1,23 @@
+.App {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    overflow: auto;
+    width: 100%;
+    min-width: 850px;
+    margin: 5px auto 0;
+    padding-top: 30px;
+    background-color: #e5e3d8;
+    display: flex;
+    justify-content: center;
+    background-image: url('common/images/background_pattern.png');
+    background-repeat: repeat;
+    min-height: 100vh;
+}
+
+
